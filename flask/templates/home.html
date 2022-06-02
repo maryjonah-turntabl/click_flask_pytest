@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather Dashboard</title>
+    </head>
+    <body>
+        <h2>Weather Dashboard in Flask</h2>
+        <form action="{{ url_for('return_needed_weather_details') }}" method="post">
+            City Name or Zip Code: <input type="text" name="cityName"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

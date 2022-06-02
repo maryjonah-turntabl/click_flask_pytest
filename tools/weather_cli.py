@@ -1,6 +1,7 @@
 import click
 import requests
 
+
 def get_json__weather_details(city_name):
 
     base_url = "https://api.openweathermap.org/data/2.5/weather?"
